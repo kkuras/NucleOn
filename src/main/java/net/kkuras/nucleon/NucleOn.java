@@ -1,6 +1,8 @@
 package net.kkuras.nucleon;
 
 import com.mojang.logging.LogUtils;
+import net.kkuras.nucleon.block.ModBlocks;
+import net.kkuras.nucleon.items.ModCreativeModeTabs;
 import net.kkuras.nucleon.items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,6 +33,9 @@ public class NucleOn {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
