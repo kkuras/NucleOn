@@ -1,3 +1,5 @@
 {
-  "item.nucleon.raw_uranium": "Raw Uranium"
+  "item.nucleon.raw_uranium": "Raw Uranium",
+
+  "creativetab.nucleon.nucleon_items": "Nucleon Items"
 }
