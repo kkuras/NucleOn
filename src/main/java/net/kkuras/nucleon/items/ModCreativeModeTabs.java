@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.nucleon.nucleon_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RAW_URANIUM.get());
+                        output.accept(ModItems.ADAMANTITE.get());
 
 
 
